@@ -1,5 +1,8 @@
 package com.loginsignupv2;
 
+  import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.auth.RNFirebaseAuthPackage;
+
 import android.app.Application;
 import android.content.Context;
 import android.net.Uri;
@@ -46,6 +49,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       List<ReactPackage> packages = new PackageList(this).getPackages();
       packages.add(new ModuleRegistryAdapter(mModuleRegistryProvider));
+      packages.add(new RNFirebaseAuthPackage());
       return packages;
     }
 
