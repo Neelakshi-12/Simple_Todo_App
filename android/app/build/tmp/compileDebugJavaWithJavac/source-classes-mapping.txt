@@ -1,0 +1,17 @@
+com/loginsignupv2/MainActivity.java
+ com.loginsignupv2.MainActivity
+ com.loginsignupv2.MainActivity$1
+com/loginsignupv2/MainApplication.java
+ com.loginsignupv2.MainApplication
+ com.loginsignupv2.MainApplication$1
+com/loginsignupv2/BuildConfig.java
+ com.loginsignupv2.BuildConfig
+com/loginsignupv2/ReactNativeFlipper.java
+ com.loginsignupv2.ReactNativeFlipper
+ com.loginsignupv2.ReactNativeFlipper$1
+ com.loginsignupv2.ReactNativeFlipper$2
+ com.loginsignupv2.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/loginsignupv2/generated/BasePackageList.java
+ com.loginsignupv2.generated.BasePackageList

@@ -1,0 +1,316 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.loginsignupv2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:5:3-75
+11-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:5:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:3:3-64
+12-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:6:3-72
+13-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:6:20-70
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:7:3-63
+14-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:7:20-61
+15    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- These require runtime permissions on M -->
+15-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:8:3-77
+15-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:8:20-75
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:10:3-77
+16-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:10:20-75
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:11:3-78
+17-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:11:20-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.54.0] C:\Users\astrea\.gradle\caches\transforms-3\a23605606306390ec186952aa6612981\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.54.0] C:\Users\astrea\.gradle\caches\transforms-3\a23605606306390ec186952aa6612981\transformed\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:expo-updates] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+19-->[:expo-updates] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-updates\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[:react-native-firebase_auth] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+20-->[:react-native-firebase_auth] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.android.installreferrer:installreferrer:1.0] C:\Users\astrea\.gradle\caches\transforms-3\ec1e7217b59fb58c32a0611527accd3b\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+21-->[com.android.installreferrer:installreferrer:1.0] C:\Users\astrea\.gradle\caches\transforms-3\ec1e7217b59fb58c32a0611527accd3b\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+22
+23    <application
+23-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:13:3-37:17
+24        android:name="com.loginsignupv2.MainApplication"
+24-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:14:5-36
+25        android:allowBackup="false"
+25-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:18:5-32
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.3.0] C:\Users\astrea\.gradle\caches\transforms-3\e1a49c42417aa23026884e9298f28dd6\transformed\core-1.3.0\AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:16:5-39
+29        android:label="@string/app_name"
+29-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:15:5-37
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:17:5-50
+31        android:theme="@style/AppTheme"
+31-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:19:5-36
+32        android:usesCleartextTraffic="true" >
+32-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\debug\AndroidManifest.xml:6:18-53
+33        <meta-data
+33-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:21:5-103
+34            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+34-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:21:16-67
+35            android:value="YOUR-APP-URL-HERE" />
+35-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:21:68-101
+36        <meta-data
+36-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:22:5-112
+37            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+37-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:22:16-68
+38            android:value="YOUR-APP-SDK-VERSION-HERE" />
+38-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:22:69-110
+39
+40        <activity
+40-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:23:5-35:16
+41            android:name="com.loginsignupv2.MainActivity"
+41-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:24:7-35
+42            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+42-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:26:7-84
+43            android:label="@string/app_name"
+43-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:25:7-39
+44            android:launchMode="singleTask"
+44-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:27:7-38
+45            android:theme="@style/Theme.App.SplashScreen"
+45-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:29:7-52
+46            android:windowSoftInputMode="adjustResize" >
+46-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:28:7-49
+47            <intent-filter>
+47-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:31:7-34:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:32:9-60
+48-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:32:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:33:9-68
+50-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:33:19-66
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:36:5-81
+53-->C:\astreafol\react_native_cli\Login_Signup_V2\android\app\src\main\AndroidManifest.xml:36:15-79
+54
+55        <meta-data
+55-->[:unimodules-react-native-adapter] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+56            android:name="org.unimodules.core.AppLoader#react-native-headless"
+56-->[:unimodules-react-native-adapter] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+57            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+57-->[:unimodules-react-native-adapter] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+58
+59        <service
+59-->[:react-native-firebase] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[:react-native-firebase] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-89
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:76:13-37
+63            <meta-data
+63-->[:react-native-firebase] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:85
+64                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+64-->[:react-native-firebase] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-116
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:react-native-firebase] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\react-native-firebase\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+67-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+69            <!--
+70                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+71                clients to use it as well, by defining this registrar in their own core/common library.
+72            -->
+73            <meta-data
+73-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+74                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+74-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+76        </service>
+77
+78        <provider
+78-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+79            android:name="expo.modules.filesystem.FileSystemFileProvider"
+79-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+80            android:authorities="com.loginsignupv2.FileSystemFileProvider"
+80-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+81            android:exported="false"
+81-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+82            android:grantUriPermissions="true" >
+82-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+83            <meta-data
+83-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-25:70
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-67
+85                android:resource="@xml/file_system_provider_paths" />
+85-->[:expo-file-system] C:\astreafol\react_native_cli\Login_Signup_V2\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+86        </provider>
+87
+88        <activity
+88-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+89            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+89-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+90            android:excludeFromRecents="true"
+90-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+91            android:exported="true"
+91-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+92            android:launchMode="singleTask"
+92-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+93-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+94            <intent-filter>
+94-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+95                <action android:name="android.intent.action.VIEW" />
+95-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:17-69
+95-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:25-66
+96
+97                <category android:name="android.intent.category.DEFAULT" />
+97-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+97-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+98                <category android:name="android.intent.category.BROWSABLE" />
+98-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:17-78
+98-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:27-75
+99
+100                <data
+100-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:39:17-42:51
+101                    android:host="firebase.auth"
+101-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:40:21-49
+102                    android:path="/"
+102-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:41:21-37
+103                    android:scheme="genericidp" />
+103-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:42:21-48
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+107            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+107-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+110            android:launchMode="singleTask"
+110-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+111-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+112            <intent-filter>
+112-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:17-69
+113-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+115-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:17-78
+116-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:27-75
+117
+118                <data
+118-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:39:17-42:51
+119                    android:host="firebase.auth"
+119-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:40:21-49
+120                    android:path="/"
+120-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:41:21-37
+121                    android:scheme="recaptcha" />
+121-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:42:21-48
+122            </intent-filter>
+123        </activity>
+124
+125        <service
+125-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+126            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+126-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+127            android:enabled="true"
+127-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+128            android:exported="false" >
+128-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+130                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+130-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+130-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+132-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\astrea\.gradle\caches\transforms-3\c88ebfe370ae49d49126b9d24bcb2475\transformed\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+133            </intent-filter>
+134        </service>
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+138            android:authorities="com.loginsignupv2.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:19.5.0] C:\Users\astrea\.gradle\caches\transforms-3\1719cb2f16e6e8f9b2118dc635d92f48\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+142
+143        <activity
+143-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+144            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+144-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+145            android:excludeFromRecents="true"
+145-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+146            android:exported="false"
+146-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+147-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+148        <!--
+149            Service handling Google Sign-In user revocation. For apps that do not integrate with
+150            Google Sign-In, this service will never be started.
+151        -->
+152        <service
+152-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+153            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+153-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+154            android:exported="true"
+154-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+155            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+155-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+156            android:visibleToInstantApps="true" />
+156-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\astrea\.gradle\caches\transforms-3\e6f1141b1573df60274b624f9f7604b5\transformed\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\astrea\.gradle\caches\transforms-3\94eda416ff81e3fab3c289d46bdf72de\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\astrea\.gradle\caches\transforms-3\94eda416ff81e3fab3c289d46bdf72de\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\astrea\.gradle\caches\transforms-3\94eda416ff81e3fab3c289d46bdf72de\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\astrea\.gradle\caches\transforms-3\94eda416ff81e3fab3c289d46bdf72de\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\astrea\.gradle\caches\transforms-3\9332f97acaca8bfd0edf90e586c22258\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+164            android:name="com.google.android.gms.version"
+164-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\astrea\.gradle\caches\transforms-3\9332f97acaca8bfd0edf90e586c22258\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+165            android:value="@integer/google_play_services_version" />
+165-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\astrea\.gradle\caches\transforms-3\9332f97acaca8bfd0edf90e586c22258\transformed\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+166
+167        <service
+167-->[androidx.room:room-runtime:2.1.0] C:\Users\astrea\.gradle\caches\transforms-3\8de4eb7fcfd2e33ccd8676a84233b109\transformed\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+168            android:name="androidx.room.MultiInstanceInvalidationService"
+168-->[androidx.room:room-runtime:2.1.0] C:\Users\astrea\.gradle\caches\transforms-3\8de4eb7fcfd2e33ccd8676a84233b109\transformed\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+169            android:exported="false" />
+169-->[androidx.room:room-runtime:2.1.0] C:\Users\astrea\.gradle\caches\transforms-3\8de4eb7fcfd2e33ccd8676a84233b109\transformed\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+170    </application>
+171
+172</manifest>
